@@ -1,0 +1,36 @@
+
+body{
+    background-color: rgb(255, 228, 177);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+form{
+    margin-left: 550px;
+    margin-top: 50px;
+    text-align: left;
+    margin: -100 10 10 10px;
+    padding: 10px; 
+}
+form :hover{
+    color: rgb(131, 48, 1);
+    font-weight: bold;
+}
+.input{
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+    padding: 10px;
+}
+#inline_qualification p,
+#inline_qualification select{
+    display: inline;
+    line-height: 35px;
+    margin-top: 10px;
+}
+#Button{
+    margin-left: 40;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+}

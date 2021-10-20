@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>Student's Registration Form</h1>
+        <p> <span class="input">First Name:</span>
+            <input type="text" name="f_name" placeholder="Enter first name" size="15" maxlength="30">
+        </p>
+        <p> <span class="input">Last Name:</span>
+            <input type="text" size="15" maxlength="30" placeholder="Enter last name">
+        </p>
+        <label for="age"><span class="input">Date of Birth:</span></label>
+        <input type="date" name="age" />
+        <p><span class="input">Email ID</span>
+            <input type="text" name="email" placeholder="Enter email address">
+        </p>
+        <p><span class="input">Mobile Number:</span>
+            <input type="text" name="number" placeholder="Enter Mobile Number"> (10 digit Number)
+        </p>
+        <p>
+            <span class="input">Sex:</span>
+            <input type="radio" name="sex" value="Male" checked="checked"> Male
+            <input type="radio" name="sex" value="Female"> Female
+        </p>
+        <p><span class="input">Address</span>
+            <textarea name="address" cols="30" rows="4" placeholder="Type your address here"></textarea>
+        </p>
+        <p><span class="input">City:</span>
+            <input type="text" name="city" placeholder="Enter city name"> (max 30 characters from a-z and A-Z)
+        <p><span class="input">PIN Code:</span>
+            <input type="text" name="pin" placeholder="Enter pincode"> (6 digit number)
+        <p><span class="input">State:</span>
+            <input type="text" name="state" placeholder="Enter state"> (max 30 characters from a-z and A-Z)
+        <p><span class="input">Country:</span>
+            <input type="text" name="country" placeholder="Enter country">
+        <div id="inline_qualification">
+            <p><span class="input">Qualification:</p></span>
+            <select name="Qualification">
+                <option value="Matriculation">Matriculation</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="Masters">Masters</option>
+                <option value="Ph.D">Ph.D</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <p>Hobbies</p>
+        <input type="checkbox" name="hobby" value="hobby" checked="checked" /> Drawing
+        <input type="checkbox" name="hobby" value="hobby"  /> Singing
+        <input type="checkbox" name="hobby" value="hobby" /> Dancing
+        <input type="checkbox" name="hobby" value="hobby"  /> Sketching
+        <input type="checkbox" name="hobby" value="hobby" /> Others
+        <input type="text" name="other" placeholder="Mention here">
+        <p>Upload Your CV</p>
+        <input type="file" name="CV" />
+        <br><br><br>
+        <div id="Button">
+            <input type="submit" value="Submit"
+                style="width: 300px; height: 30px; background-color: rgb(131, 48, 1); color: white;" />
+        </div>
+    </form>
+</body>
+
+</html>
